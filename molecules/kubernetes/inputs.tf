@@ -38,13 +38,7 @@ variable "externals" {
     {
       name = "ingress-nginx"
       repo = "https://kubernetes.github.io/ingress-nginx"
-      version = "4.4.0"
-    },
-    {
-      name = "hajimari"
-      repo = "https://hajimari.io"
-      version = "1.2.0"
-      namespace = "homelab"
+      version = "4.10.0"
     },
     {
       name = "postgresql"
@@ -56,7 +50,7 @@ variable "externals" {
     {
       name = "pihole",
       repo = "https://mojo2600.github.io/pihole-kubernetes/",
-      version = "2.11.0",
+      version = "2.22.0",
       namespace = "homelab"
     },
     {

@@ -4,7 +4,7 @@ terraform {
   required_providers {
     ssh = {
       source  = "loafoe/ssh"
-      version = "2.3.0"
+      version = "2.7.0"
     }
 
     time = {
@@ -18,9 +18,5 @@ terraform {
     }
   }
 
-  backend "http" { }
+  #backend "http" { }
 }
-
-provider "ssh" {}
-provider "time" {}
-provider "remote" {}
